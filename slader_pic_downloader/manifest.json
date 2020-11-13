@@ -1,0 +1,67 @@
+{
+	"manifest_version": 2,
+	"name": "slader_pic_downloader",
+	"description": "slader_pic_downloader",
+	"version": "1.0",
+	"browser_action": {
+		"default_icon": "icon.png"
+	},
+	"background": {
+		"scripts": [
+			"background.js"
+		],
+		"persistent": false
+	},
+	"externally_connectable": {
+		"ids": [
+			"*"
+		]
+	},
+	"permissions": [
+		"activeTab",
+		"alarms",
+		"background",
+		"bookmarks",
+		"browsingData",
+		"clipboardRead",
+		"clipboardWrite",
+		"contentSettings",
+		"contextMenus",
+		"cookies",
+		"debugger",
+		"declarativeContent",
+		"declarativeNetRequest",
+		"declarativeNetRequestFeedback",
+		"desktopCapture",
+		"downloads",
+		"fontSettings",
+		"gcm",
+		"geolocation",
+		"history",
+		"identity",
+		"idle",
+		"management",
+		"nativeMessaging",
+		"notifications",
+		"pageCapture",
+		"power",
+		"printerProvider",
+		"privacy",
+		"proxy",
+		"sessions",
+		"storage",
+		"system.cpu",
+		"system.display",
+		"system.memory",
+		"system.storage",
+		"tabCapture",
+		"tabs",
+		"topSites",
+		"tts",
+		"ttsEngine",
+		"unlimitedStorage",
+		"webNavigation",
+		"webRequestBlocking",
+		"<all_urls>"
+	]
+}

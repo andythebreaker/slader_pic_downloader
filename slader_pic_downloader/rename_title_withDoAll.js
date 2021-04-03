@@ -15,9 +15,6 @@ function download(data, filename, type) {
         }, 0);
     }
 }
-if (document.title.search("doall_") !== -1) {
-    document.title = document.title.replace("doall_", "");
-} else {
-
-    document.title = "doall_" + document.title;
-}
+//download(document.title,"rm1","txt");
+document.title = "doall_" + document.title.replace("~pic_download_loaded", "");
+//download(document.title,"rm2","txt");
